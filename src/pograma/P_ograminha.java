@@ -25,7 +25,7 @@ public class P_ograminha {
 		
 		p_odutos.add(new P_odutos(id, nome, preco));
 		
-		System.out.print("Novo produto? ('s' ou qualquer outra letra)");
+		System.out.print("Novo produto? ('s' para cadastrar novo produto, ou digite outra letra para concluir)");
 		novoP_oduto = sc.next().charAt(0);
 		} while (novoP_oduto == 's');
 		
